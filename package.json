@@ -1,0 +1,22 @@
+{
+  "name": "antd-build-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "antd": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-parallel-uglify-plugin": "^1.1.0"
+  }
+}
